@@ -286,7 +286,7 @@ def ok_test(input_file):
 if __name__ == "__main__":
     
     # Path of input file
-    input_file = '/home/rafael/Dropbox/Documentos/ICTS/desafio/1.jpg'
+    input_file = '/home/rafael/Github/icts_pdi_challenge/1.jpg'
     
     # Verify the OK presence, returning (True,) or (False,)
     output_status = ok_test(input_file)
