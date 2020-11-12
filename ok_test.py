@@ -247,6 +247,8 @@ def ok_convolution(text_seg, text_size, ok, ok_size):
 
 def ok_test(input_file):
     
+    global hsv, img_seg, img_filt, points_seg, points_ang, points_dist, text_pos, text_seg, ok, res_filt, output_status
+    
     # Read the image in HSV
     hsv = read_hsv(input_file)
     
